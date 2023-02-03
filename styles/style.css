@@ -1,0 +1,54 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.header-flex {
+    height: auto;
+    background-color: black;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.h1-flex {
+    color: aliceblue;
+}
+
+.nav-flex {}
+
+nav a {}
+
+.logo {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.items-banner {
+    display: flex;
+    align-items: center;
+
+}
+
+.gif {
+    width: 100%;
+    height: 600px;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.texto {
+    margin-left: 500px;
+}
