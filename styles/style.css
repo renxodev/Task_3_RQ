@@ -10,31 +10,53 @@
     height: auto;
     background-color: black;
     width: 100%;
-    padding: 30px;
+    padding: 10px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+
 
 }
 
-.h1-flex {
-    color: aliceblue;
+h1 {
+    color: #f8e12e;
+    font-style: normal;
+    /* border-color:#c64832; */
+    -webkit-text-stroke: 1px #c64832;
+    text-shadow: -2px -2px 1px #5fa199;
+
 }
 
-.nav-flex {}
+nav {
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
 
-nav a {}
+nav a {
+    color: black;
+    font-size: large;
+    border: 1px solid #c64832;
+    border-radius: 10%;
+    padding: 5px;
+    background-color: yellow;
+}
 
 .logo {
+    width: 300px;
+    opacity: 30%;
     display: flex;
-    width: 200px;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .items-banner {
+    background-image: url(../assets/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
-
 }
 
 .gif {
@@ -46,9 +68,19 @@ h2 {
     background-color: black;
     color: white;
     text-align: center;
-
 }
 
 .texto {
-    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: bisque;
+
+}
+
+.texto-about {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: bisque;
 }
