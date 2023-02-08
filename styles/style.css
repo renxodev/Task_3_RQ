@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 .header-flex {
     height: auto;
     background-color: black;
@@ -13,8 +11,6 @@
     padding: 10px;
     display: flex;
     justify-content: center;
-
-
 }
 
 h1 {
@@ -22,8 +18,7 @@ h1 {
     font-style: normal;
     /* border-color:#c64832; */
     -webkit-text-stroke: 1px #c64832;
-    text-shadow: -2px -2px 1px #5fa199;
-
+     text-shadow: -2px -2px 1px #5fa199; 
 }
 
 nav {
@@ -43,7 +38,7 @@ nav a {
 }
 
 .logo {
-    width: 300px;
+    width: 400px;
     opacity: 30%;
     display: flex;
     justify-content: center;
@@ -68,6 +63,12 @@ h2 {
     background-color: black;
     color: white;
     text-align: center;
+    color: #f8e12e;
+    font-style: normal;
+    /* border-color:#c64832; */
+    -webkit-text-stroke: 1px #c64832;
+    /* text-shadow: -2px -2px 1px #5fa199; */
+    padding: 7px;
 }
 
 .texto {
@@ -81,6 +82,52 @@ h2 {
 .texto-about {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
     background-color: bisque;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    
+}
+
+table{
+    width: 100%;
+    border: 1px solid grey;
+}
+th, td{
+    width: 25%;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.texto-games{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: bisque;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.texto-rules{
+    display: flex;
+    background-color: bisque;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+}
+
+.formulario{
+    background-color: bisque;
+}
+.formulario h4{
+    padding: 5px;
+
+}
+hr{
+    border: 1px solid black;
 }
