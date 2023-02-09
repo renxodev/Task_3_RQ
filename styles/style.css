@@ -38,7 +38,7 @@ nav a {
 }
 
 .logo {
-    width: 400px;
+    width: 450px;
     opacity: 30%;
     display: flex;
     justify-content: center;
@@ -118,7 +118,11 @@ th, td{
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
-
+}
+.texto-registration{
+    display: flex;
+    background-color: bisque;
+    
 }
 
 .formulario{
@@ -129,5 +133,8 @@ th, td{
 
 }
 hr{
-    border: 1px solid black;
+    border: 1px solid grey;
+}
+.send{
+    background-color: bisque;
 }
